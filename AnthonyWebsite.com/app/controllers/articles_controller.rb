@@ -3,7 +3,10 @@ class ArticlesController < ApplicationController
     @articles = Article.order("created_at DESC")
   end
 
+  def wumbo
+    puts 'this is wumbology, the study of wumbo!'
 
+  end
 
 
   def create
